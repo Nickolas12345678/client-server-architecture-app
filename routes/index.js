@@ -28,4 +28,3 @@ module.exports.patchRouting = (fastify) => {
     fastify.register(echoRouter);
     fastify.register(resourcesRouter);
 };
-
